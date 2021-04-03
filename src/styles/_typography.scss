@@ -1,0 +1,35 @@
+h1 {
+  font-family: $title-font;
+  font-size: 48px;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+
+h2 {
+  margin-bottom: 20px;
+  font-family: $text-font;
+  font-weight: lighter;
+}
+
+h3 {
+  margin-bottom: 10px;
+}
+
+h4 {
+  margin-bottom: 5px;
+  padding-top: 15px;
+  font-family: $text-font;
+  font-weight: 500;
+  text-decoration: underline solid $base-color-dark;
+}
+
+p {
+  margin-bottom: 10px;
+  font-family: $text-font;
+  font-weight: 300;
+}
+
+li {
+  font-family: $text-font;
+}
+  

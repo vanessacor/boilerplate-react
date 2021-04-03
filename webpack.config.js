@@ -26,7 +26,11 @@ module.exports = {
         exclude: /node_modules/,
         loader: "babel-loader",
         options: { presets: ["@babel/env", "@babel/preset-react"] }
-      }
+      },
+      {
+        test: /\.s[ac]ss$/i,
+        use: ["style-loader", "css-loader", "postcss-loader", "sass-loader"],
+      },
     ]
   },
   plugins: [
